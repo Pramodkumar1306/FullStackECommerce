@@ -3,7 +3,7 @@ import { ShopContext } from '../context/ShopContext'
 import {Link} from 'react-router-dom'
 
 export default function ProductItem({id,img,name,price}) {
-    console.log("img prop:", img);
+     
     const{currency} = useContext(ShopContext);
 
     return (

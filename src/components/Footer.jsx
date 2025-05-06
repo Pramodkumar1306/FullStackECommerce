@@ -14,10 +14,10 @@ export default function Footer() {
                 <div className="">
                     <p className='text-xl mb-5 font-medium'>COMPANY</p>
                     <ul className="flex flex-col gap-1 text-gray-600">
-                        <l1>Home</l1>
-                        <l1>About Us</l1>
-                        <l1>Delivery</l1>
-                        <l1>Privacy Policy</l1>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Delivery</li>
+                        <li>Privacy Policy</li>
                     </ul>
                 </div>
                 <div className="">
@@ -25,8 +25,8 @@ export default function Footer() {
                         GET IN TOUCH
                     </p>
                     <ul className='flex flex-col gap-1 text-gray-600'>
-                        <l1>+1-211-465-4567</l1>
-                        <l1>contact@forevre.com</l1>
+                        <li>+1-211-465-4567</li>
+                        <li>contact@forevre.com</li>
                     </ul>
                 </div>
             </div>

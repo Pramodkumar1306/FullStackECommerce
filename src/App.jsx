@@ -7,18 +7,20 @@ import Collection from './pages/Collection'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contacts'
-import Product from './pages/product'
+import Product from './pages/Product'
 import Cart from './pages/Cart'
 import Login from './pages/LoginPage'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
 
 
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
       <NavBar/>
+      <SearchBar/>
           <Routes>
               <Route path='/' element={<Home/> } />
               <Route path='/Collection' element={<Collection/> } />
